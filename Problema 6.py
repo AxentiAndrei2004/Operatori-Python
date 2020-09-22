@@ -1,0 +1,5 @@
+n=int(input('Numar natural n='))
+print('Ultima cifra a numarului este',n%10)
+print('Penultima cifra a numarului este', n//10%10)
+print('Restul si catul impartirii numarului la n este', n%9,n//9)
+print('Suma cifrelor a numarului este',(n//1000)+(n//100)%10+(n//10)%10+(n%10))
